@@ -48,7 +48,7 @@ function Weather() {
 
     return (
         <div className="bg-gradient-to-br from-indigo-300 to-gray-600 min-h-screen">
-            <div className="flex flex-col justify-center items-center px-3">
+            <div className="flex flex-col justify-center items-center px-1">
                 {/* Contenu */}
                 <div className="bg-[#3a7cbe] w-full max-w-md mt-20 p-5 shadow-xl overflow-hidden  border rounded-3xl border-[#3a7cbe]">
                      <div className="text-white">
@@ -90,7 +90,7 @@ function Weather() {
                         
                         />
                     <button 
-                        className="bg-[#3a7cbe] text-white rounded-2xl px-6 py-3 ml-1 hover:bg-[#2e6ea7] transition shadow-2xl"
+                        className="bg-[#3a7cbe] text-white rounded-2xl px-6 py-3 ml-2 hover:bg-[#2e6ea7] transition shadow-2xl"
                         onClick={click}
                         >
                             Voir
