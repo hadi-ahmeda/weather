@@ -27,7 +27,7 @@ function Weather() {
 
     useEffect(() => {
         if (tab) {
-            fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${tab.lat}&lon=${tab.lon}&appid=375a30b403eca1bb7848020900012fc5`)
+            fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${tab.lat}&lon=${tab.lon}&appid=c7f84ad8618bf4ce6f5c751c2a14f845`)
             .then(res => res.json())
             .then((weather) => {
                 setData(weather);
