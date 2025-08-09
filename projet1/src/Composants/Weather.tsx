@@ -48,7 +48,7 @@ function Weather() {
 
     return (
         <div className="bg-gradient-to-br from-indigo-300 to-gray-600 min-h-screen">
-            <div className="flex flex-col justify-center items-center px-7">
+            <div className="flex flex-col justify-center items-center px-3">
                 {/* Contenu */}
                 <div className="bg-[#3a7cbe] w-full max-w-md mt-20 p-5 shadow-xl overflow-hidden  border rounded-3xl border-[#3a7cbe]">
                      <div className="text-white">
