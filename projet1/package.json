@@ -1,17 +1,13 @@
 {
   "name": "projet1",
   "private": true,
-  "homepage": "https://hadi-ahmeda.github.io/weather",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-    
+    "preview": "vite preview"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
