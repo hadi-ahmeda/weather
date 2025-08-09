@@ -90,7 +90,7 @@ function Weather() {
                         
                         />
                     <button 
-                        className="bg-[#3a7cbe] text-white rounded-2xl px-6 py-3 ml-3 hover:bg-[#2e6ea7] transition shadow-2xl"
+                        className="bg-[#3a7cbe] text-white rounded-2xl px-6 py-3 ml-1 hover:bg-[#2e6ea7] transition shadow-2xl"
                         onClick={click}
                         >
                             Voir
