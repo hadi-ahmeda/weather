@@ -1,12 +1,4 @@
-// To parse this data:
-//
-//   import { Convert, Welcome } from "./file";
-//
-//   const welcome = Convert.toWelcome(json);
-//
-// These functions will throw an error if the JSON doesn't
-// match the expected interface, even if the JSON is valid.
-
+// Types/Weather.ts
 export interface Welcome {
     coord:      Coord;
     weather:    Weather[];
@@ -39,13 +31,13 @@ export interface Main {
     temp_max:   number;
     pressure:   number;
     humidity:   number;
-    sea_level:  number;
-    grnd_level: number;
+    sea_level?:  number; // optionnel
+    grnd_level?:  number; // optionnel
 }
 
 export interface Sys {
-    type:    number;
-    id:      number;
+    type?:    number; // optionnel
+    id?:      number; // optionnel
     country: string;
     sunrise: number;
     sunset:  number;
@@ -61,5 +53,5 @@ export interface Weather {
 export interface Wind {
     speed: number;
     deg:   number;
-    gust:  number;
+    gust?:  number; // optionnel
 }
